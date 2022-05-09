@@ -2,7 +2,7 @@
 
 ### [Live on Netlify 🚀](https://rivicodes-coffee-shop-react.netlify.app)
 
-_Single Page Application wrotten in TypeScript and JSX (React). An updated version of [this older one](https://github.com/RiviCodes/coffee-shop-layout), which was coded in HTML5 and CSS._
+_Single Page Application coded in TypeScript and JSX (React). An updated version of [this older one](https://github.com/RiviCodes/coffee-shop-layout), which was wrotten in HTML5 and CSS._
 
 ### Pre-requirements 📋
 
