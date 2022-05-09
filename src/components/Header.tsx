@@ -1,12 +1,13 @@
 import React from "react";
+import "../styles/Header.css";
 
 export default function Header() {
   return (
     <>
-      <section id="main-header">
+      <section id="header-section">
         <div id="header-logo">HEADER LOGO</div>
         <div className="header-links">
-          <ul id="main-header-list">
+          <ul id="header-list">
             <li>
               <a href="test">LINK ONE</a>
             </li>
