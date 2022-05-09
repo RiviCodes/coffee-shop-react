@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#services-section {
+  display: flex;
+  flex-direction: row;
+  padding: 56px 20px 36px 20px;
+  background-color: rgb(249 220 201 / 49%);
+  font-family: 'Concert One', cursive;
+}
+
+#services-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#services-section img {
+  width: 68px;
+  height: auto;
+}
+
+#services-section div h2 {
+  margin-bottom: 0;
+}
