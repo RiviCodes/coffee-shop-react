@@ -1,27 +1,7 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const react_1 = __importDefault(require("react"));
+const jsx_runtime_1 = require("react/jsx-runtime");
 function Header() {
-    return (<>
-      <section id="main-header">
-        <div id="header-logo">HEADER LOGO</div>
-        <div className="header-links">
-          <ul id="main-header-list">
-            <li>
-              <a href="test">LINK ONE</a>
-            </li>
-            <li>
-              <a href="test">LINK TWO</a>
-            </li>
-            <li>
-              <a href="test">ABOUT US</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </>);
+    return ((0, jsx_runtime_1.jsx)(jsx_runtime_1.Fragment, { children: (0, jsx_runtime_1.jsxs)("section", Object.assign({ id: "main-header" }, { children: [(0, jsx_runtime_1.jsx)("div", Object.assign({ id: "header-logo" }, { children: "HEADER LOGO" })), (0, jsx_runtime_1.jsx)("div", Object.assign({ className: "header-links" }, { children: (0, jsx_runtime_1.jsxs)("ul", Object.assign({ id: "main-header-list" }, { children: [(0, jsx_runtime_1.jsx)("li", { children: (0, jsx_runtime_1.jsx)("a", Object.assign({ href: "test" }, { children: "LINK ONE" })) }), (0, jsx_runtime_1.jsx)("li", { children: (0, jsx_runtime_1.jsx)("a", Object.assign({ href: "test" }, { children: "LINK TWO" })) }), (0, jsx_runtime_1.jsx)("li", { children: (0, jsx_runtime_1.jsx)("a", Object.assign({ href: "test" }, { children: "ABOUT US" })) })] })) }))] })) }));
 }
 exports.default = Header;
