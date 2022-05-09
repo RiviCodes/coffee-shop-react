@@ -43,8 +43,8 @@
   border-radius: 16px;
   background-color: white;
   transition-duration: 0.6s;
-  font-size: 18px;
-  /* font-family: 'Pacifico', cursive; */
+  font-size: 24px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 #explore-button:hover {
