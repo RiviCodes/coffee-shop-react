@@ -1,11 +1,16 @@
 import React from "react";
+import "../styles/Services.css";
 
 export default function Services() {
   return (
     <>
-      <section id="services-section">
+      <section id="services-section" className="grid">
         <div>
-          <img id="coffee-mug" src="images/coffee-mug.png" alt="Coffee Mug" />
+          <img
+            id="coffee-mug"
+            src="./images/services/coffee-mug.png"
+            alt="Coffee Mug"
+          />
           <h2>Best Coffee</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
@@ -13,7 +18,11 @@ export default function Services() {
           </p>
         </div>
         <div>
-          <img id="coffee-cup" src="images/coffee-cup.png" alt="Coffee Cup" />
+          <img
+            id="coffee-cup"
+            src="./images/services/coffee-cup.png"
+            alt="Coffee Cup"
+          />
           <h2>Ready for you</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
@@ -21,7 +30,11 @@ export default function Services() {
           </p>
         </div>
         <div>
-          <img id="coffee-bag" src="images/coffee-bag.png" alt="Coffee Bag" />
+          <img
+            id="coffee-bag"
+            src="./images/services/coffee-bag.png"
+            alt="Coffee Bag"
+          />
           <h2>House Specialties</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
@@ -29,7 +42,7 @@ export default function Services() {
           </p>
         </div>
         <div>
-          <img id="wifi" src="images/wifi.png" alt="Wifi" />
+          <img id="wifi" src="./images/services/wifi.png" alt="Wifi" />
           <h2>Free Wifi</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
