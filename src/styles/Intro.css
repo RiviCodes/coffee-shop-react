@@ -59,6 +59,7 @@
 
   #intro-section {
     height: fit-content;
+    min-height: 70vh;
   }
 
   .intro-h1 {
