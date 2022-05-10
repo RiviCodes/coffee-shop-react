@@ -4,7 +4,7 @@ import "../styles/Services.css";
 export default function Services() {
   return (
     <>
-      <section id="services-section" className="grid">
+      <section id="services-section" className="grid-services">
         <div>
           <img
             id="coffee-mug"
