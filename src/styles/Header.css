@@ -5,15 +5,16 @@
   justify-content: space-between;
   background-color: #381b13; /* #51291E, #301014 */
   color: white;
+  height: 8vh;
 }
 
 #header-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 32px;
+  margin-left: 2rem;
   font-family: 'Bebas Neue', cursive;
-  font-size: 22px;
+  font-size: 1.7rem;
 }
 
 .header-links {
@@ -21,7 +22,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin-right: 30px;
+  margin-right: 2rem;
 }
 
 #header-list {
@@ -29,10 +30,10 @@
 }
 
 #header-list li {
-  list-style: none;
-  margin-left: 40px;
+  font-size: 1.5rem;
   font-family: 'Bebas Neue', cursive;
-  font-size: 22px;
+  list-style: none;
+  margin-left: 2rem;
 }
 
 #header-list li > a {
@@ -44,7 +45,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
   
   #header-section {
-    height: 9vh;
+    max-height: 8.5vh;
   }
 
   #header-logo {
@@ -53,12 +54,11 @@
   }
   
   .header-links {
-    justify-content: space-evenly;
     margin-right: 1rem;
   }
 
   #header-list li {
-    margin-left: 0.7rem;
+    margin-left: 0.6rem;
   }
 
   #header-list li > a {
