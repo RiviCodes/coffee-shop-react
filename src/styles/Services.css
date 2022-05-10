@@ -1,14 +1,14 @@
-.grid {
+.grid-services {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 #services-section {
-  display: flex;
-  flex-direction: row;
-  padding: 56px 20px 36px 20px;
+  padding: 2rem 1rem 2.7rem 1rem;
   background-color: rgb(249 220 201 / 49%);
   font-family: 'Concert One', cursive;
+  height: 25vh;
+  min-height: fit-content;
 }
 
 #services-section div {
@@ -20,10 +20,42 @@
 }
 
 #services-section img {
-  width: 68px;
   height: auto;
+  width: 4rem;
 }
 
 #services-section div h2 {
+  font-size: 1.5rem;
   margin-bottom: 0;
+}
+
+#services-section div p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 500px) {
+  .grid-services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #services-section {
+    padding: 42px 16px 26px 16px;
+    background-color: rgb(249 220 201 / 49%);
+    font-family: 'Concert One', cursive;
+    height: fit-content;
+  }
+
+  #services-section img {
+    height: auto;
+    width: 65px;
+  }
+
+  #services-section div h2 {
+   font-size: 1.4rem;
+  }
+
+  #services-section div p {
+    font-size: 1rem;
+  }
 }

@@ -33,6 +33,7 @@
   color: antiquewhite;
   max-width: 880px;
   margin-top: 16px;
+  margin-bottom: 30px;
 }
 
 #explore-button {
@@ -50,4 +51,28 @@
 #explore-button:hover {
   background-color: #9F643D;
   color: white;
+}
+
+@media (max-width: 500px) {
+
+  #intro-section {
+    height: fit-content;
+  }
+
+  .intro-h1 {
+    font-size: 30px;
+  }
+
+  .intro-h2 {
+    font-size: 62px;
+  }
+
+  .intro-p {
+    font-size: 18px;
+    max-width: 400px;
+  }
+
+  #explore-button{
+    font-size: 20px;
+  }
 }
