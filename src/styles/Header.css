@@ -65,3 +65,34 @@
     font-size: 1rem;
   }
 }
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  #header-section {
+    height: 9vh;
+  }
+
+  #header-logo {
+    font-size: 1.5rem;
+    margin-left: 1.4rem;
+  }
+
+  .header-links {
+    margin-right: 1rem;
+  }
+
+  #header-list li {
+    margin-left: 0.7rem;
+  }
+
+  #header-list li > a {
+    font-size: 1.2rem;
+  }
+}
+
+/* Laptops, small screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #header-section {
+    height: 9vh;
+  }
+}

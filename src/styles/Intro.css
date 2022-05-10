@@ -7,7 +7,7 @@
   padding-bottom: 60px;
   background-image: url('../../public/images/intro/coffee-welcome.jpg');
   background-size: cover;
-  height: 65vh;
+  min-height: 68vh;
 }
 
 .intro-h1 {
@@ -78,4 +78,44 @@
   #explore-button{
     font-size: 1.3rem;
   }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  #intro-section {
+    height: fit-content;
+    min-height: 70vh;
+  }
+
+  .intro-h2 {
+    font-size: 4.7rem;
+  }
+
+  .intro-p {
+    font-size: 1rem;
+    max-width: 85%;
+  }
+}
+
+
+/* Laptops, small screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #intro-section {
+    height: fit-content;
+    min-height: 68vh;
+  }
+
+  .intro-h2 {
+    font-size: 5.5rem;
+  }
+
+  .intro-p {
+    font-size: 1.2rem;
+    max-width: 85%;
+  }
+}
+
+/* Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
 }
