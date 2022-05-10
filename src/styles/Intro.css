@@ -53,26 +53,27 @@
   color: white;
 }
 
-@media (max-width: 500px) {
+/* Mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
 
   #intro-section {
     height: fit-content;
   }
 
   .intro-h1 {
-    font-size: 30px;
+    font-size: 1.9rem;
   }
 
   .intro-h2 {
-    font-size: 62px;
+    font-size: 3.1rem;
   }
 
   .intro-p {
-    font-size: 18px;
-    max-width: 400px;
+    font-size: 1rem;
+    max-width: 90%;
   }
 
   #explore-button{
-    font-size: 20px;
+    font-size: 1.3rem;
   }
 }

@@ -34,13 +34,14 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 500px) {
+/* Mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
   .grid-services {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   #services-section {
-    padding: 3rem 1rem 0.5rem 1rem;
+    padding: 2.8rem 1rem 1rem 1rem;
     background-color: rgb(249 220 201 / 49%);
     font-family: 'Concert One', cursive;
     height: fit-content;
@@ -52,14 +53,19 @@
 
   #services-section img {
     height: auto;
-    width: 4rem;
+    width: 24%;
   }
 
   #services-section div h2 {
-   font-size: 1.4rem;
+   font-size: 1.5rem;
   }
 
   #services-section div p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    max-width: 80%;
   }
+}
+
+@media (min-width: 551px)and (max-width: 850px) {
+  
 }
