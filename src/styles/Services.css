@@ -40,15 +40,19 @@
   }
 
   #services-section {
-    padding: 42px 16px 26px 16px;
+    padding: 3rem 1rem 0.5rem 1rem;
     background-color: rgb(249 220 201 / 49%);
     font-family: 'Concert One', cursive;
     height: fit-content;
   }
 
+  #services-section div {
+    margin-bottom: 2.5rem;
+  }
+
   #services-section img {
     height: auto;
-    width: 65px;
+    width: 4rem;
   }
 
   #services-section div h2 {
