@@ -7,6 +7,7 @@ const jsx_runtime_1 = require("react/jsx-runtime");
 const Header_1 = __importDefault(require("./components/Header"));
 const Intro_1 = __importDefault(require("./components/Intro"));
 const Services_1 = __importDefault(require("./components/Services"));
+/* import About from "./components/About"; */
 require("./App.css");
 function App() {
     return ((0, jsx_runtime_1.jsxs)(jsx_runtime_1.Fragment, { children: [(0, jsx_runtime_1.jsx)(Header_1.default, {}), (0, jsx_runtime_1.jsx)(Intro_1.default, {}), (0, jsx_runtime_1.jsx)(Services_1.default, {})] }));
