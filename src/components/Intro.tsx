@@ -5,8 +5,8 @@ export default function Intro() {
   return (
     <>
       <section id="intro-section">
-        <h1 className="intro-h1">Welcome to</h1>
-        <h2 className="intro-h2">The Coffee Shop</h2>
+        <span className="intro-span">Welcome to</span>
+        <h1 className="intro-h1">The Coffee Shop</h1>
         <p className="intro-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
