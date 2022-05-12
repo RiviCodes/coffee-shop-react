@@ -50,17 +50,17 @@
   }
 
   #services-section img {
-    height: auto;
-    width: 23%;
+    /* width: 6.7rem; */
+    width: 10vw;
   }
 
   #services-section div h2 {
-   font-size: 1.5rem;
+   font-size: 1.9rem;
   }
 
   #services-section div p {
-    font-size: 1.1rem;
-    max-width: 80%;
+    font-size: 1.3rem;
+    max-width: 54%;
   }
 }
 
@@ -72,7 +72,7 @@
 
   #services-section {
     padding: 3.2rem 1rem 1rem 1rem;
-    height: 70vh;
+    height: 34rem;
     min-height: fit-content;
   }
 
@@ -81,7 +81,7 @@
   }
 
   #services-section img {
-    width: 4.5rem;
+    width: 5rem;
   }
 
   #services-section div h2 {
@@ -90,11 +90,62 @@
 
   #services-section div p {
     font-size: 1rem;
-    max-width: 70%;
+    max-width: 78%;
   }
 }
 
 /* Laptops, small screens */
 @media (min-width: 769px) and (max-width: 1024px) {
-  
+  html {
+    font-size: 22px;
+  }
+
+  .grid-services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #services-section {
+    padding: 1.8rem 1rem 1.6rem 1rem;
+    height: 30rem;
+    min-height: fit-content;
+  }
+
+  #services-section img {
+    width: 4.3rem;
+  }
+
+  #services-section div p {
+    font-size: 1rem;
+    max-width: 78%;
+  }
+}
+
+/* Desktops, large screens */
+@media (min-width: 1025px) {
+  html {
+    font-size: 25px;
+  }
+
+  .grid-services {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #services-section {
+    padding: 2.4rem 0 1.6rem 0;
+    height: 13rem;
+    min-height: fit-content;
+  }
+
+  #services-section img {
+    width: 4rem;
+  }
+
+  #services-section div h2 {
+    font-size: 1.2rem;
+   }
+
+   #services-section div p {
+    font-size: 0.9rem;
+    max-width: 86%;
+  }
 }
