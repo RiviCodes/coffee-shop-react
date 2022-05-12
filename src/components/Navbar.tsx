@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/Header.css";
+import "../styles/Navbar.css";
 
-export default function Header() {
+export default function Navbar() {
   return (
     <>
       <section id="header-section">
