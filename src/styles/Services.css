@@ -7,8 +7,6 @@
   padding: 2rem 1rem 2.7rem 1rem;
   background-color: rgb(249 220 201 / 49%);
   font-family: 'Concert One', cursive;
-  height: 25vh;
-  min-height: fit-content;
 }
 
 #services-section div {
@@ -105,16 +103,19 @@
 
   #services-section {
     padding: 1.8rem 1rem 1.6rem 1rem;
-    height: 30rem;
-    min-height: fit-content;
+    height: 26rem;
   }
 
   #services-section img {
-    width: 4.3rem;
+    width: 4rem;
   }
 
+  #services-section div h2 {
+    font-size: 1.3rem;
+   }
+
   #services-section div p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     max-width: 78%;
   }
 }
@@ -130,21 +131,20 @@
   }
 
   #services-section {
-    padding: 2.4rem 0 1.6rem 0;
+    padding: 0;
     height: 13rem;
-    min-height: fit-content;
   }
 
   #services-section img {
-    width: 4rem;
+    width: 3.6rem;
   }
 
   #services-section div h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
    }
 
    #services-section div p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     max-width: 86%;
   }
 }
