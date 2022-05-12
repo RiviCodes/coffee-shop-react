@@ -5,17 +5,30 @@ export default function Header() {
   return (
     <>
       <section id="header-section">
-        <div id="header-logo">HEADER LOGO</div>
-        <div className="header-links">
+        <div className="header--left_side">
+          <img
+            src="./images/header/coffee-beans.png"
+            alt="Beans Logo"
+            className="header--beans_logo"
+          />
+          <div id="header-logo">COFFEE SHOP</div>
+        </div>
+        <div className="header--right_side">
           <ul id="header-list">
-            <li>
-              <a href="test">LINK ONE</a>
+            <li className="header--li_item">
+              <a className="header-anchor" href="test">
+                LINK ONE
+              </a>
             </li>
-            <li>
-              <a href="test">LINK TWO</a>
+            <li className="header--li_item">
+              <a className="header-anchor" href="test">
+                LINK TWO
+              </a>
             </li>
-            <li>
-              <a href="test">ABOUT US</a>
+            <li className="header--li_item">
+              <a className="header-anchor" href="test">
+                ABOUT US
+              </a>
             </li>
           </ul>
         </div>
