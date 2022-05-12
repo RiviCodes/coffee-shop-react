@@ -1,4 +1,4 @@
-#header-section {
+#navbar-section {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -7,42 +7,42 @@
   background-color: #381b13; /* #51291E, #301014 */
 }
 
-.header--left_side {
+.navbar--left_side {
   display: flex;
   flex-direction: row;
 }
 
-#header-logo {
+#navbar-logo {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Bebas Neue', cursive;
 }
 
-.header--beans_logo {
+.navbar--beans_logo {
   height: auto;
 }
 
-.header--right_side {
+.navbar--right_side {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
 }
 
-#header-list {
+#navbar-list {
   display: flex;
   margin: 0;
 }
 
-.header--li_item {
+.navbar--li_item {
   font-size: 1.5rem;
   font-family: 'Bebas Neue', cursive;
   list-style: none;
   margin-left: 2rem;
 }
 
-.header-anchor {
+.navbar-anchor {
   text-decoration: none;
   color: white;
 }
@@ -53,32 +53,32 @@
     font-size: 12px;
   }
   
-  #header-section {
+  #navbar-section {
     height: 5.5rem;
   }
 
-  .header--left_side {
+  .navbar--left_side {
     margin-left: 1.6rem;
   }
 
-  #header-logo {
+  #navbar-logo {
     display: none;
   }
   
-  .header--beans_logo {
+  .navbar--beans_logo {
     height: auto;
     width: 3.3rem;
   }
 
-  .header--right_side {
+  .navbar--right_side {
     margin-right: 1.2rem;
   }
 
-  .header--li_item {
+  .navbar--li_item {
     margin-left: 1.2rem;
   }
 
-  .header-anchor {
+  .navbar-anchor {
     font-size: 1.5rem;
   }
 }
@@ -89,33 +89,33 @@
     font-size: 18px;
   }
 
-  #header-section {
+  #navbar-section {
     height: 4.3rem;
   }
 
-  .header--left_side {
+  .navbar--left_side {
     margin-left: 1.2rem;
   }
 
-  #header-logo {
+  #navbar-logo {
     font-size: 1.8em;
   }
 
-  .header--beans_logo {
+  .navbar--beans_logo {
     height: auto;
     width: 2.7rem;
     margin-right: 0.6rem;
   }
 
-  .header--right_side {
+  .navbar--right_side {
     margin-right: 1rem;
   }
 
-  .header--li_item {
+  .navbar--li_item {
     margin-left: 0.7rem;
   }
 
-  .header-anchor {
+  .navbar-anchor {
     font-size: 1.4rem;
   }
 }
@@ -126,29 +126,29 @@
     font-size: 22px;
   }
 
-  #header-section {
+  #navbar-section {
     height: 3.5rem;
   }
 
-  #header-logo {
+  #navbar-logo {
     font-size: 1.5rem;
     margin-left: 1.4rem;
   }
 
-  .header--beans_logo {
+  .navbar--beans_logo {
     height: auto;
     width: 2.8rem;
   }
 
-  .header--right_side {
+  .navbar--right_side {
     margin-right: 1.4rem;
   }
 
-  .header--li_item {
+  .navbar--li_item {
     margin-left: 0.8rem;
   }
 
-  .header-anchor {
+  .navbar-anchor {
     font-size: 1.4rem;
   }
 }
@@ -159,29 +159,29 @@
     font-size: 25px;
   }
 
-  #header-section {
+  #navbar-section {
     height: 2.3rem;
   }
 
-  #header-logo {
+  #navbar-logo {
     font-size: 1.1rem;
     margin-left: 1.3rem;
   }
 
-  .header--beans_logo {
+  .navbar--beans_logo {
     height: auto;
     width: 2.8rem;
   }
 
-  .header--right_side {
+  .navbar--right_side {
     margin-right: 1.3rem;
   }
 
-  .header--li_item {
+  .navbar--li_item {
     margin-left: 0.8rem;
   }
 
-  .header-anchor {
+  .navbar-anchor {
     font-size: 1.1rem;
   }
 }
