@@ -3,73 +3,128 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #381b13; /* #51291E, #301014 */
   color: white;
-  height: 8vh;
+  background-color: #381b13; /* #51291E, #301014 */
+}
+
+.header--left_side {
+  display: flex;
+  flex-direction: row;
 }
 
 #header-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 2rem;
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.7rem;
 }
 
-.header-links {
+.header--beans_logo {
+  height: auto;
+}
+
+.header--right_side {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin-right: 2rem;
 }
 
 #header-list {
   display: flex;
+  margin: 0;
 }
 
-#header-list li {
+.header--li_item {
   font-size: 1.5rem;
   font-family: 'Bebas Neue', cursive;
   list-style: none;
   margin-left: 2rem;
 }
 
-#header-list li > a {
+.header-anchor {
   text-decoration: none;
   color: white;
 }
 
 /* Mobile devices */
 @media (min-width: 320px) and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
   
   #header-section {
-    max-height: 8.5vh;
+    height: 4.5rem;
+  }
+
+  .header--left_side {
+    margin-left: 2rem;
   }
 
   #header-logo {
-    font-size: 1rem;
-    margin-left: 1.2rem;
+    display: none;
   }
   
-  .header-links {
-    margin-right: 1rem;
+  .header--beans_logo {
+    height: auto;
+    width: 2.8rem;
   }
 
-  #header-list li {
-    margin-left: 0.6rem;
+  .header--right_side {
+    margin-right: 1.2rem;
   }
 
-  #header-list li > a {
-    font-size: 1rem;
+  .header--li_item {
+    margin-left: 1rem;
+  }
+
+  .header-anchor {
+    font-size: 1.4rem;
   }
 }
 
 /* Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+
   #header-section {
-    height: 9vh;
+    height: 3.7rem;
+  }
+
+  #header-logo {
+    font-size: 1.5em;
+  }
+
+  .header--beans_logo {
+    height: auto;
+    width: 2rem;
+    margin-left: 1rem;
+    margin-right: 0.6rem;
+  }
+
+  .header--right_side {
+    margin-right: 1rem;
+  }
+
+  .header--li_item {
+    margin-left: 0.7rem;
+  }
+
+  .header-anchor {
+    font-size: 1.3rem;
+  }
+}
+
+/* Laptops, small screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    font-size: 22px;
+  }
+
+  #header-section {
+    height: 3.5rem;
   }
 
   #header-logo {
@@ -77,22 +132,53 @@
     margin-left: 1.4rem;
   }
 
-  .header-links {
-    margin-right: 1rem;
+  .header--beans_logo {
+    height: auto;
+    width: 2.8rem;
   }
 
-  #header-list li {
-    margin-left: 0.7rem;
+  .header--right_side {
+    margin-right: 1.4rem;
   }
 
-  #header-list li > a {
-    font-size: 1.2rem;
+  .header--li_item {
+    margin-left: 0.8rem;
+  }
+
+  .header-anchor {
+    font-size: 1.4rem;
   }
 }
 
-/* Laptops, small screens */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* Desktops, large screens */
+@media (min-width: 1025px) {
+  html {
+    font-size: 25px;
+  }
+
   #header-section {
-    height: 9vh;
+    height: 2.3rem;
+  }
+
+  #header-logo {
+    font-size: 1.1rem;
+    margin-left: 1.3rem;
+  }
+
+  .header--beans_logo {
+    height: auto;
+    width: 2.8rem;
+  }
+
+  .header--right_side {
+    margin-right: 1.3rem;
+  }
+
+  .header--li_item {
+    margin-left: 0.8rem;
+  }
+
+  .header-anchor {
+    font-size: 1.1rem;
   }
 }
