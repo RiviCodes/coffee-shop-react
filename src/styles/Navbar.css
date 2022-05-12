@@ -90,17 +90,20 @@
   }
 
   #header-section {
-    height: 3.7rem;
+    height: 4.3rem;
+  }
+
+  .header--left_side {
+    margin-left: 1.2rem;
   }
 
   #header-logo {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 
   .header--beans_logo {
     height: auto;
-    width: 2rem;
-    margin-left: 1rem;
+    width: 2.7rem;
     margin-right: 0.6rem;
   }
 
@@ -113,7 +116,7 @@
   }
 
   .header-anchor {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 
