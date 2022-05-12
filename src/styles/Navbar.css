@@ -94,21 +94,21 @@
   }
 
   .navbar--left_side {
-    margin-left: 1.2rem;
+    margin-left: 0.9rem;
   }
 
   #navbar-logo {
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
 
   .navbar--beans_logo {
     height: auto;
     width: 2.7rem;
-    margin-right: 0.6rem;
+    margin-right: 0.5rem;
   }
 
   .navbar--right_side {
-    margin-right: 1rem;
+    margin-right: 0.9rem;
   }
 
   .navbar--li_item {
@@ -116,7 +116,7 @@
   }
 
   .navbar-anchor {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
