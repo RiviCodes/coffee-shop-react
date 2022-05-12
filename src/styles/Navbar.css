@@ -10,6 +10,8 @@
 .navbar--left_side {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #navbar-logo {
@@ -36,10 +38,8 @@
 }
 
 .navbar--li_item {
-  font-size: 1.5rem;
   font-family: 'Bebas Neue', cursive;
   list-style: none;
-  margin-left: 2rem;
 }
 
 .navbar-anchor {
@@ -127,29 +127,32 @@
   }
 
   #navbar-section {
-    height: 3.5rem;
+    height: 3.2rem;
+  }
+
+  .navbar--left_side {
+    margin-left: 1rem;
   }
 
   #navbar-logo {
-    font-size: 1.5rem;
-    margin-left: 1.4rem;
+    font-size: 1.6rem;
+    margin-left: 1rem;
   }
 
   .navbar--beans_logo {
-    height: auto;
-    width: 2.8rem;
+    width: 2.4rem;
   }
 
   .navbar--right_side {
-    margin-right: 1.4rem;
+    margin-right: 1rem;
   }
 
   .navbar--li_item {
-    margin-left: 0.8rem;
+    margin-left: 1rem;
   }
 
   .navbar-anchor {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -160,21 +163,24 @@
   }
 
   #navbar-section {
-    height: 2.3rem;
+    height: 2.8rem;
+  }
+
+  .navbar--left_side {
+    margin-left: 1rem;
   }
 
   #navbar-logo {
-    font-size: 1.1rem;
-    margin-left: 1.3rem;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
   }
 
   .navbar--beans_logo {
-    height: auto;
-    width: 2.8rem;
+    width: 2rem;
   }
 
   .navbar--right_side {
-    margin-right: 1.3rem;
+    margin-right: 1rem;
   }
 
   .navbar--li_item {
