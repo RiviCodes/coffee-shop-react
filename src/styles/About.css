@@ -27,3 +27,11 @@
   height: auto;
   width: 14rem;
 }
+
+/* Mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid-about {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
