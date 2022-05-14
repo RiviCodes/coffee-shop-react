@@ -90,12 +90,12 @@
 
   .about--card_header {
     font-size: 1.3rem;
-    
+    font-family: 'Roboto', sans-serif;
   }
 
   .about--card_p {
     font-size: 1.1rem;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
     grid-column: 1/2;
     width: 80%;
   }
