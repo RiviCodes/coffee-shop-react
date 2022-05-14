@@ -93,10 +93,10 @@
   }
 
   .about--card_p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "Roboto", sans-serif;
     grid-column: 1/2;
-    width: 80%;
+    width: 88%;
   }
 
   .about-right_side {
