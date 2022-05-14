@@ -9,11 +9,11 @@
 }
 
 .about-h3 {
-  font-size: 2.3rem;
   font-family: 'Damion', cursive;
   border-bottom: 3px solid #CFB299;
   max-width: fit-content;
   align-self: center;
+  margin: 0;
 }
 
 .about-h3 > span {
@@ -26,9 +26,7 @@
 }
 
 .about-card {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
+  display: grid;
 }
 
 .about--card_header {
@@ -61,25 +59,44 @@
     grid-template-columns: 100%;
   }
 
+  #about-section {
+    padding: 3.5rem 1rem 1rem 1rem;
+  }
+
+  .about-h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.7rem;
+  }
+
   .about-p {
+    font-size: 1.7rem;
+    font-family: 'Damion', cursive;
     align-self: center;
-    width: 75%;
-    margin-bottom: 2rem;
+    width: 74%;
+    margin-bottom: 3rem;
   }
 
   .about-card {
-    margin-left: 3rem;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    margin: 0 3.5rem 2.5rem 3.5rem;
+    width: 17rem;
   }
 
   .about-icon {
-    width: 3rem;
+    width: 4rem;
+    margin-bottom: 1.5rem;
   }
 
   .about--card_header {
+    font-size: 1.3rem;
     
   }
 
   .about--card_p {
-    width: 75%;
+    font-size: 1.1rem;
+    font-style: italic;
+    grid-column: 1/2;
+    width: 80%;
   }
 }
