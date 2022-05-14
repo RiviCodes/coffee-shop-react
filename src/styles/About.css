@@ -9,15 +9,15 @@
 }
 
 .about-h3 {
-  font-family: 'Damion', cursive;
-  border-bottom: 3px solid #CFB299;
+  font-family: "Damion", cursive;
+  border-bottom: 3px solid #cfb299;
   max-width: fit-content;
   align-self: center;
   margin: 0;
 }
 
 .about-h3 > span {
-  color: #9F643D;
+  color: #9f643d;
 }
 
 .about-p {
@@ -30,7 +30,7 @@
 }
 
 .about--card_header {
- margin: 0;   
+  margin: 0;
 }
 
 .about-icon {
@@ -43,13 +43,8 @@
   flex-direction: column;
 }
 
-.about--card_header {
-    
-}
-
 .about-picture {
   height: auto;
-  width: 14rem;
 }
 
 /* Mobile devices */
@@ -60,7 +55,11 @@
   }
 
   #about-section {
-    padding: 3.5rem 1rem 1rem 1rem;
+    padding: 3.5rem 1rem 3.5rem 1rem;
+  }
+
+  .about-left_side {
+    margin-bottom: 0.8rem;
   }
 
   .about-h3 {
@@ -70,7 +69,7 @@
 
   .about-p {
     font-size: 1.7rem;
-    font-family: 'Damion', cursive;
+    font-family: "Damion", cursive;
     align-self: center;
     width: 74%;
     margin-bottom: 3rem;
@@ -90,13 +89,28 @@
 
   .about--card_header {
     font-size: 1.3rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   .about--card_p {
     font-size: 1.1rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     grid-column: 1/2;
     width: 80%;
+  }
+
+  .about-right_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30rem;
+  }
+
+  .about-picture {
+    width: 20rem;
+    border-radius: 30px;
+    border-bottom: 6px solid #9f643d;
+    border-right: 6px solid #9f643d;
   }
 }
