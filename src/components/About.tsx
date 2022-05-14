@@ -20,13 +20,15 @@ export default function About() {
             alt="100% Natural Coffee"
             className="about-icon"
           />
-          <div>
-            <h3 className="about--card_header">100% Natural Coffee</h3>
-            <p className="about--card_p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur, delectus?
-            </p>
-          </div>
+          <h3 className="about--card_header">
+            100% Natural
+            <br />
+            Coffee
+          </h3>
+          <p className="about--card_p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequatur, delectus?
+          </p>
         </div>
         <div className="about-card">
           <img
@@ -34,13 +36,16 @@ export default function About() {
             alt="Quality product"
             className="about-icon"
           />
-          <div>
-            <h3 className="about--card_header">Quality product</h3>
-            <p className="about--card_p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur, delectus?
-            </p>
-          </div>
+
+          <h3 className="about--card_header">
+            Quality
+            <br />
+            product
+          </h3>
+          <p className="about--card_p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequatur, delectus?
+          </p>
         </div>
         <div className="about-card">
           <img
@@ -48,13 +53,15 @@ export default function About() {
             alt="Free delivery"
             className="about-icon"
           />
-          <div>
-            <h3 className="about--card_header">Free delivery</h3>
-            <p className="about--card_p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur, delectus?
-            </p>
-          </div>
+          <h3 className="about--card_header">
+            Free
+            <br />
+            delivery
+          </h3>
+          <p className="about--card_p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequatur, delectus?
+          </p>
         </div>
       </div>
       <div className="about-right_side">
