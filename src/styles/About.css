@@ -66,6 +66,7 @@
 
   .about-left_side {
     margin-bottom: 0.8rem;
+    height: fit-content;
   }
 
   .about-h3 {
