@@ -28,6 +28,7 @@
 
 .about-card {
   display: grid;
+  border: 2px solid black;
 }
 
 .about-icon {
@@ -66,7 +67,6 @@
 
   .about-left_side {
     margin-bottom: 0.8rem;
-    height: fit-content;
   }
 
   .about-h3 {
@@ -78,29 +78,31 @@
     font-size: 1.7rem;
     align-self: center;
     width: 74%;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .about-card {
     grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
-    margin: 1rem 3.5rem 2rem 3.5rem;
+    margin: 1rem 3.5rem 3rem 3.5rem;
     width: 17rem;
   }
 
   .about-icon {
     width: 4.8rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
   }
 
   .about--card_header {
     font-size: 1.5rem;
+    margin-bottom: 1.2rem;
   }
 
   .about--card_p {
     font-size: 1.2rem;
-    grid-column: 1/2;
+    /* grid-column: 1/2; */
     width: 88%;
+    margin: 0;
   }
 
   .about-right_side {
