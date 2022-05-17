@@ -239,3 +239,66 @@
     border-right: 6px solid #9f643d;
   }
 }
+
+/* Desktops, large screens */
+@media (min-width: 1025px) {
+  .grid-about {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  #about-section {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .about-left_side {
+    margin-left: 2rem;
+  }
+
+  .about-h3 {
+    font-size: 1.6rem;
+    align-self: flex-start;
+    margin-bottom: 0.6rem;
+  }
+
+  .about-p {
+    font-size: 1rem;
+    width: 85%;
+    margin-bottom: 1.6rem;
+  }
+
+  .about-card {
+    width: 17rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .about-icon {
+    width: 2.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .about--card_header {
+    font-size: 0.8rem;
+  }
+
+  .about--card_p {
+    font-size: 0.7rem;
+    grid-column: 1/2;
+    width: 12rem;
+  }
+
+  .about-right_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 39rem;
+  }
+
+  .about-picture {
+    width: 13rem;
+    border-radius: 30px;
+    border-bottom: 8px solid #9f643d;
+    border-right: 8px solid #9f643d;
+  }
+}
